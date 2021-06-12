@@ -6,3 +6,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
+.contain{
+  padding: 6%;
+  @include respond(phone) {
+    padding-top: 25%;
+  }
+}

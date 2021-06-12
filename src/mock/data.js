@@ -2,18 +2,19 @@ import { nanoid } from 'nanoid';
 import giphyGif from '../images/studentApp.gif';
 import roseGif from '../images/roseApp.gif';
 import doctorPocket from '../images/doctorPocket.gif';
+import portfolio from '../images/portfolio.gif';
 
 // HEAD DATA
 export const headData = {
-  title: 'Anne Developer', 
-  lang: 'en', 
-  description: 'Welcome to my website', 
+  title: 'Anne Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HEADER DATA
 export const headerData = {
   title: 'AnneSonLogo',
-  img: 'annesonlog.png'
+  img: 'annesonlog.png',
 };
 
 // HERO DATA
@@ -33,99 +34,100 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
-//LOGOS DATA
+// LOGOS DATA
 export const logoData = [
   {
-  id: nanoid(),
-  img: 'react.png',
-  alt: 'react'
+    id: nanoid(),
+    img: 'react.png',
+    alt: 'react',
   },
   {
     id: nanoid(),
     img: 'node-js.png',
-    alt: 'node'
+    alt: 'node',
   },
   {
     id: nanoid(),
     img: 'javascript.png',
-    alt: 'javascript'
+    alt: 'javascript',
   },
   {
     id: nanoid(),
     img: 'html.png',
-    alt: 'html'
+    alt: 'html',
   },
   {
     id: nanoid(),
     img: 'css3.png',
-    alt: 'css3'
+    alt: 'css3',
   },
   {
     id: nanoid(),
     img: 'sass.png',
-    alt: 'sass'
+    alt: 'sass',
   },
   {
     id: nanoid(),
     img: 'jquery.png',
-    alt: 'jquery'
+    alt: 'jquery',
   },
   {
     id: nanoid(),
     img: 'wordpress.png',
-    alt: 'wordpress'
+    alt: 'wordpress',
   },
   {
     id: nanoid(),
     img: 'github.png',
-    alt: 'github'
+    alt: 'github',
   },
   {
     id: nanoid(),
     img: 'php.png',
-    alt: 'php'
+    alt: 'php',
   },
   {
     id: nanoid(),
     img: 'java.png',
-    alt: 'html'
+    alt: 'html',
   },
   {
     id: nanoid(),
     img: 'csharp.png',
-    alt: 'csharp'
+    alt: 'csharp',
   },
   {
     id: nanoid(),
     img: 'sql.png',
-    alt: 'sql'
+    alt: 'sql',
   },
   {
     id: nanoid(),
     img: 'illustrator.png',
-    alt: 'illustrator'
+    alt: 'illustrator',
   },
   {
     id: nanoid(),
     img: 'photoshop.png',
-    alt: 'photoshop'
+    alt: 'photoshop',
   },
 ];
-
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    gif: null,
-    isGif: false,
+    gif: portfolio,
+    isGif: true,
     category: 'Web Development',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Portfolio',
+    info: `React Portfolio to show some of my projects. It is a forked repo from gatsby simplefolio. However I have changed 
+    almost all of it. I added more features, like css animations, backgrounds with my own edited photos and another page for
+    projects with a navbar with buttons according the categories that I have in my projects.`,
+    info2: 'Technologies: Gatsby, GraphQL, React, Bootstrap 4, Sass, Photoshop',
+    url: 'https://www.anneson.com/',
+    repo: 'https://github.com/Anne-Son/gatsby-anne-portfolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -173,7 +175,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'annesontech@gmail.com'
+  email: 'annesontech@gmail.com',
 };
 
 // FOOTER DATA
@@ -201,4 +203,3 @@ export const footerData = {
 export const githubButtons = {
   isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
-

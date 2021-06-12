@@ -184,7 +184,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/annesontech',
     },
     {
       id: nanoid(),

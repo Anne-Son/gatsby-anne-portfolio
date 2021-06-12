@@ -148,7 +148,7 @@
     height: 100vh;
   }
   .me{
-    padding-top: 30%;
+    padding-top: 20%;
     @include respond(phone) {
       padding-top: 60%;
     }

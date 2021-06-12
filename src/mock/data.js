@@ -140,7 +140,7 @@ export const projectsData = [
     displaying the doctors list, the calendar, and implementing the design for the UI according to a Figma file.`,
     info2: 'Technologies: Java, SQLite as database and Source Control Git',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Anne-Son/PocketDoctor', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

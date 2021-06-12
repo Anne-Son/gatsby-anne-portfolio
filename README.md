@@ -1,4 +1,4 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+# Gatsby Portfolio 
 
 ## A clean, beautiful and responsive portfolio template for Developers
 
@@ -17,9 +17,6 @@
 ⚡️ Image optimization with Gatsby\
 ⚡️ Easy site customization\
 ⚡️ Well organized documentation
-
-To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
 
 ---
 
@@ -100,147 +97,6 @@ Once your server has started, go to this url `http://localhost:8000/` and you wi
 
 ---
 
-## Instructions:
-
-### Step 1 - STRUCTURE
-
-Go to `/src/mock/data.js` and fill your information, they are 5 objects:
-
-### Hero Section
-
-```javascript
-export const heroData = {
-  title: '', // Hello, my name is
-  name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
-  cta: '', // Know more
-};
-```
-
-### About Section
-
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
-
-```javascript
-export const aboutData = {
-  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-};
-```
-
-### Projects Section
-
-**_Important Note_**: All the images must live inside the `src/images/` folder in order for Gatsby to show the images correctly.
-
-Put as many projects object you want inside the `array`.
-
-```javascript
-export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  ...
-];
-```
-
-### Contact Section
-
-```javascript
-export const contactData = {
-  cta: '', // call to action text for the contact section
-  btn: '', // text inside the button
-  email: '',
-};
-```
-
-### Footer Section
-
-You can remove or add as many you social-media icons you want.\
-Just put an object with the corresponding values inside the networks `array` or remove it from there.
-
-```javascript
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '', // your twitter url
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '', // your codepen url
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '', // your linkedin url
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '', // your github url
-    },
-  ],
-};
-```
-
-### Required - Disable GitHub buttons
-
-Set `isEnabled` to `false` once you finish setup your portfolio.\
-By setting to `false` it will hide the GitHub stars/fork buttons
-
-```javascript
-export const githubButtons = {
-  isEnabled: true, // true is the default value
-};
-```
-
-### Step 2 - STYLES
-
-Change the color theme of the website ( choose 2 colors to create a gradient ):
-
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
-
-```scss
-// Default values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
-```
-
-**_Note_**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
-
----
-
-## Deployment 📦
-
-Once you have done with your setup. You need to put your website online!
-
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
-
-## Others versions 👥
-
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
@@ -251,11 +107,8 @@ I highly recommend to use [Netlify](https://netlify.com) to achieve this on the 
 
 ## Authors
 
+- **Anne Son** https://github.com/Anne-Son/gatsby-anne-portfolio (I forked Jacobo Martinez repo and modify it to my style)
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/gatsby-simplefolio/deploys)
 
 ## License 📄
 
@@ -263,4 +116,35 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments 🎁
 
-I was motivated to create this project because I wanted to contribute on something useful for the dev community, thanks to [ZTM Community](https://github.com/zero-to-mastery) and [Andrei](https://github.com/aneagoie)
+- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- <a href="https://iconscout.com/icons/github" target="_blank">Github Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/linux" target="_blank">Linux Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
+
+<a href="https://iconscout.com/icons/visualstudio" target="_blank">Visualstudio Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
+
+<a href="https://iconscout.com/icons/css3" target="_blank">Css3 Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/html" target="_blank">Html Icon</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank">Icon 54</a>
+
+<a href="https://iconscout.com/icons/java" target="_blank">Java Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/javascript" target="_blank">Javascript Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
+
+<a href="https://iconscout.com/icons/php" target="_blank">Php Icon</a> by <a href="https://iconscout.com/contributors/jagathish">Jagathish Saravanan</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/sass" target="_blank">Sass Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
+
+<a href="https://iconscout.com/icons/csharp" target="_blank">Csharp Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
+
+<a href="https://iconscout.com/icons/python" target="_blank">Python Icon</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank">Icon 54</a>
+
+<a href="https://iconscout.com/icons/mysql" target="_blank">Mysql Icon</a> by <a href="https://iconscout.com/contributors/icon-54">Icon 54</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/mongodb" target="_blank">Mongodb Icon</a> by <a href="https://iconscout.com/contributors/icon-54">Icon 54</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/wordpress" target="_blank">Wordpress Icon</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a> on <a href="https://iconscout.com">Iconscout</a>
+
+<a href="https://iconscout.com/icons/logo" target="_blank">Photoshop Icon</a> by <a href="https://iconscout.com/contributors/pocike" target="_blank">Alpár - Etele Méder</a>
+
+<a href="https://iconscout.com/icons/illustrator" target="_blank">Illustrator Icon</a> by <a href="https://iconscout.com/contributors/icons">Dinesh Awtani</a> on <a href="https://iconscout.com">Iconscout</a>

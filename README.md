@@ -1,6 +1,6 @@
 # Gatsby Portfolio 
 
-## A clean, beautiful and responsive portfolio template for Developers
+## A clean, beautiful and responsive portfolio
 
 <h2 align="center">
   <img src="https://github.com/Anne-Son/gatsby-anne-portfolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />

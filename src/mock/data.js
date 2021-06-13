@@ -3,6 +3,7 @@ import giphyGif from '../images/studentApp.gif';
 import roseGif from '../images/roseApp.gif';
 import doctorPocket from '../images/doctorPocket.gif';
 import portfolio from '../images/portfolio.gif';
+import uniWP from '../images/uniWP.gif';
 
 // HEAD DATA
 export const headData = {
@@ -124,10 +125,23 @@ export const projectsData = [
     title: 'Portfolio',
     info: `React Portfolio to show some of my projects. It is a forked repo from gatsby simplefolio. However I have changed 
     almost all of it. I added more features, like css animations, backgrounds with my own edited photos and another page for
-    projects with a navbar with buttons according the categories that I have in my projects.`,
-    info2: 'Technologies: Gatsby, GraphQL, React, Bootstrap 4, Sass, Photoshop',
+    projects with a navbar with buttons according the categories that I have in my projects. Project deployed with github and
+    a third party deployment service deployhq.com `,
+    info2: 'Technologies: Gatsby, GraphQL, React, Bootstrap 4, Sass, Git, Photoshop',
     url: 'https://www.anneson.com/',
     repo: 'https://github.com/Anne-Son/gatsby-anne-portfolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    gif: uniWP,
+    isGif: true,
+    category: 'Web Development',
+    title: 'WordPress site',
+    info: `WordPress website created using custom theme, custom posts, some plugins for managing the size of images, for importing and exporting all the website for deployment, etc., google map API, REST API, AJAX, AXIOS. Project deployed with plugins `,
+    info2: 'Technologies: Javascript, PHP, JQuery, Bootstrap 4, webpack, node, mySql',
+    url: 'https://www.uni.anneson.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

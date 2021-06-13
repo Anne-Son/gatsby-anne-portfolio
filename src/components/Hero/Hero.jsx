@@ -63,13 +63,7 @@ const Header = () => {
                 {subtitle || (
                   <Typewriter
                     onInit={(typewriter) => {
-                      typewriter
-                        .typeString('I am a Web Developer')
-                        .pauseFor(200)
-                        .deleteChars(13)
-                        .typeString('Front-End Developer')
-                        .pauseFor(1000)
-                        .start();
+                      typewriter.typeString('I am a Web Developer').pauseFor(1000).start();
                     }}
                   />
                 )}

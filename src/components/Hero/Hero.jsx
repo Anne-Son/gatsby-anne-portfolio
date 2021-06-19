@@ -41,7 +41,7 @@ const Header = () => {
   const imageData = data.desktop.childImageSharp.fluid;
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron" style={{ padding: 0 }}>
       <BackgroundImage className="hero-background" fluid={imageData}>
         <div className="sky-container">
           <div className="star" />

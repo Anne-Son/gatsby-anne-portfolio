@@ -25,9 +25,11 @@
 .item{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-grid-gap: 4em;
-color: white;
-padding-bottom: 7rem;
+grid-gap: 3em;
+color: $dark-blue-text;
+padding: 0 2rem 3rem;
+
+
 
 @include respond(tab-land) {
   grid-template-columns: repeat(1, 1fr);
@@ -40,9 +42,11 @@ padding-bottom: 7rem;
 }
 .item-con{
   width: 100%;
-  padding: 1.8rem 1.7rem;
-  background-color: rgb(24, 24, 24);
+  padding: 1.9rem 1.9rem;
+  background-color: 	#F5F5F5;
   margin-bottom: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 	#F0F0F0;
 }
 .item-container{
   overflow: hidden;

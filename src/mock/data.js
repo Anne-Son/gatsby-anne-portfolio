@@ -145,6 +145,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'gap.png',
+    isGif: false,
+    category: 'Email Development',
+    title: 'Transactional HTML Email',
+    info: `I duplicate an email from GAP that I have received and I converted it into a Transactional HTML Email `,
+    info2: 'Technologies: Javascript, HMTL5, CSS3, email on acid, Illustrator',
+    url: 'https://www.transactionalemail.anneson.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     gif: doctorPocket,
     isGif: true,

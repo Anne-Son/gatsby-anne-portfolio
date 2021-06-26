@@ -156,6 +156,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'graphic-design.jpg',
+    isGif: false,
+    category: 'Graphic Design',
+    title: 'Orthé graphic design materials',
+    info: `I was part of the opening team for a dental office, called Orthé. I became versed in several fields of communication technology to help the business grow and I apply these methods proficiently. I learned how to build a website in Squarespace, edit photos in Photoshop, create logos and design graphic materials for the workspace. `,
+    info2: 'Technologies: Squarespace, Photoshop, Illustrator, HTML5, CSS3',
+    url: 'https://www.graphic.anneson.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     gif: doctorPocket,
     isGif: true,
